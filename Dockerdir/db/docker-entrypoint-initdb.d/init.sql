@@ -1,4 +1,4 @@
-create table user
+create table users
 (
     name varchar(50) null,
     id int not null,
@@ -8,7 +8,7 @@ create table user
 
 
 
-create table mood
+create table moods
 (
     score int not null,
     timestamp timestamp not null,
